@@ -7,6 +7,8 @@
 ## state
 python 3.7以上不能使用torchvision中的nms。速度影响很严重。  
 使用python写的nms非常缓慢。 
+## 测试
+![tt.png](/img/tt.png)
 ## References  
 [paper](https://arxiv.org/abs/1911.09070)  
 [lukemelas/EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)  

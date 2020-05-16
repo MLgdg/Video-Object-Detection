@@ -98,7 +98,7 @@ while ok:
 			score = float(out[i]['scores'][j])
 
 			cv2.putText(ori_imgs[i], '{}, {:.3f}'.format(obj, score),
-                        (x1, y1 + 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
+                        (x1, y1 + 10), cv2.FONT_HERSHEY_SIMPLEX, 1,
                         (255, 255, 0), 1)
 
     
