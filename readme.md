@@ -1,12 +1,13 @@
 ## Train
-`python train.py`  
- 需要修改训练文件路径
+`python train.py --data_path=YOUR-DATA-PATH`  
+ 需要修改训练文件路径 
+ 
 ## Test
 `python camear.py`    
 在weights中已经包含模型无需训练，但是这个模型训练次数非常少
 ## state
-python 3.7以上不能使用torchvision中的nms。速度影响很严重。  
-使用python写的nms非常缓慢。 
+python 3.7以上不能使用torchvision中的nms,torchvision中的nms通过c++和c实现速度很快。
+使用python写的nms非常缓慢。
 ## 测试
 ![tt.png](/img/tt.png)
 ## References  
